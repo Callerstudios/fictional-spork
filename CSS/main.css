@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #224093;
+  font-family: sans-serif;
+}
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  padding: 20px 150px;
+  background-color: #f5f5f5;
+  /* background-color: blue; */
+}
+.nav_right {
+  padding-left: 300px;
+  display: flex;
+}
+.n_right {
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+.but {
+  height: 50px;
+  margin: 15px 50px;
+  width: 200px;
+  color: #224093;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: #fdb915;
+  border: none;
+  align-content: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+main {
+  padding: 100px;
+  background-color: #f5f5f5;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 100px;
+}
+.child:nth-child(1) {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 50px;
+}
+.box {
+  height: 5px;
+  width: 100%;
+  background-color: black;
+  margin-top: 30px;
+}
+.box_2 {
+  height: 2px;
+  width: 100%;
+  background-color: #fdb915;
+  margin-bottom: 20px;
+}
+.click {
+  height: 50px;
+  background-color: #fdb915;
+  width: 90%;
+  border: none;
+}
+.venue {
+  text-align: center;
+}
+.box_3 {
+  -webkit-animation-name: fa-spin;
+  animation-name: fa-spin;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+  animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+  animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 2s);
+  animation-duration: var(--fa-animation-duration, 2s);
+  -webkit-animation-iteration-count: var(
+    --fa-animation-iteration-count,
+    infinite
+  );
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+  animation-timing-function: var(--fa-animation-timing, linear);
+}
+.about {
+  font-size: 18px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 500px;
+}
+.abt_left {
+  padding-top: 100px;
+}
+.after {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.container_2 {
+  padding: 50px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 400px 400px 400px 400px 400px;
+}
+.people {
+  text-align: center;
+}
+.people img {
+  width: 100%;
+}
+.down_2 {
+  padding: 50px;
+}
