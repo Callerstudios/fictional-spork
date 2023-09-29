@@ -74,13 +74,14 @@ main {
   text-align: center;
 }
 .box_3 {
-animation: name duration timing-function delay iteration-count direction fill-mode;
-animation: box_3 3s infinite linear;
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+  animation: box_3 3s infinite linear;
 }
 @keyframes box_3 {
-    100% {
-        transform: rotate(360deg);
-    }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .about {
   font-size: 18px;
@@ -112,4 +113,27 @@ animation: box_3 3s infinite linear;
 }
 .down_2 {
   padding: 50px;
+}
+.down_3 {
+  padding-right: 50%;
+  padding-left: 10%;
+  color: black;
+}
+.down_4 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+footer {
+  padding-left: 80%;
+  padding-top: 50px;
+  height: 150px;
+  background-color: #224093;
+  gap: 10px;
+}
+a {
+  color: white;
+  font-size: larger;
+  text-decoration: none;
 }
